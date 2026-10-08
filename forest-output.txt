@@ -1,0 +1,337 @@
+> g++ -O3 -std=c++17 .\forest_upper.cpp -o forest_upper
+
+> .\forest_upper.exe --max-len 2
+standard-generator nodes: 4
+standard-generator pruned: 0
+allowed odd-offset closures: 0
+forest-standard representatives (length <= 2): 1
+generation seconds: 0.0010241
+forest-standard representatives by length: 2:1
+primitive-generator nodes: 0
+primitive-generator pruned: 0
+primitive jumps (both signs, length <= 2): 0
+primitive jumps with nonnegative displacement: 0
+primitive generation seconds: 0.0007679
+shift model: primitive forms=0, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 1
+overlap groups: 0
+pairwise-equivalent overlap edges: 0
+prefix-trie nodes: 3
+distinct compressed prefix weights: 0
+overlap-build seconds: 0.0008951
+radius bracket found: F(0.25)=0.07216878364870323 F(0.28999999999999998)=-0.24236123345652216
+rho in [0.259676259231091, 0.259676259231128]
+rho ~= 0.25967625923111
+candidate phi upper <= 3.85094888135337
+last shift rounds used: 20 (last shift delta 0)
+last cluster iterations: 1 (last cluster delta 2.618738559334588e-14)
+root seconds: 0.0066588999999999997
+total seconds: 0.0106512
+
+> .\forest_upper.exe --max-len 4
+standard-generator nodes: 34
+standard-generator pruned: 13
+allowed odd-offset closures: 1
+forest-standard representatives (length <= 4): 2
+generation seconds: 0.0013721
+forest-standard representatives by length: 2:1 4:1
+primitive-generator nodes: 30
+primitive-generator pruned: 13
+primitive jumps (both signs, length <= 4): 2
+primitive jumps with nonnegative displacement: 1
+primitive generation seconds: 0.0010045
+shift model: primitive forms=2, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 3
+overlap groups: 0
+pairwise-equivalent overlap edges: 0
+prefix-trie nodes: 6
+distinct compressed prefix weights: 0
+overlap-build seconds: 0.0013725
+radius bracket found: F(0.25)=0.081103526917993607 F(0.28999999999999998)=-0.21581535159063422
+rho in [0.261240692003994, 0.26124069200403]
+rho ~= 0.261240692004012
+candidate phi upper <= 3.82788757880304
+last shift rounds used: 20 (last shift delta 2.2204460492503131e-16)
+last cluster iterations: 1 (last cluster delta 3.0697666630885578e-14)
+root seconds: 0.005875
+total seconds: 0.011244199999999999
+
+> .\forest_upper.exe --max-len 6
+standard-generator nodes: 292
+standard-generator pruned: 110
+allowed odd-offset closures: 9
+forest-standard representatives (length <= 6): 7
+generation seconds: 0.0013595
+forest-standard representatives by length: 2:1 4:1 6:5
+primitive-generator nodes: 228
+primitive-generator pruned: 101
+primitive jumps (both signs, length <= 6): 4
+primitive jumps with nonnegative displacement: 2
+primitive generation seconds: 0.0008571
+shift model: primitive forms=4, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 11
+overlap groups: 2
+pairwise-equivalent overlap edges: 2
+prefix-trie nodes: 27
+distinct compressed prefix weights: 2
+overlap-build seconds: 0.0009322
+radius bracket found: F(0.25)=0.083960184409755598 F(0.28999999999999998)=-0.20283503382858623
+rho in [0.26182966577464, 0.261829665774676]
+rho ~= 0.261829665774658
+candidate phi upper <= 3.81927692204562
+last shift rounds used: 20 (last shift delta 3.4694469519536142e-18)
+last cluster iterations: 1 (last cluster delta 3.1002977962657496e-14)
+root seconds: 0.018394500000000001
+total seconds: 0.023465799999999998
+
+> .\forest_upper.exe --max-len 8
+standard-generator nodes: 2584
+standard-generator pruned: 947
+allowed odd-offset closures: 83
+forest-standard representatives (length <= 8): 38
+generation seconds: 0.001544
+forest-standard representatives by length: 2:1 4:1 6:5 8:31
+primitive-generator nodes: 1756
+primitive-generator pruned: 769
+primitive jumps (both signs, length <= 8): 8
+primitive jumps with nonnegative displacement: 6
+primitive generation seconds: 0.0009685
+shift model: primitive forms=8, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 65
+overlap groups: 12
+pairwise-equivalent overlap edges: 36
+prefix-trie nodes: 154
+distinct compressed prefix weights: 8
+overlap-build seconds: 0.0009362
+radius bracket found: F(0.25)=0.08552146319179256 F(0.28999999999999998)=-0.19057526442108086
+rho in [0.262216669738882, 0.262216669738918]
+rho ~= 0.2622166697389
+candidate phi upper <= 3.81364007481222
+last shift rounds used: 20 (last shift delta 1.1102230246251565e-16)
+last cluster iterations: 1 (last cluster delta 3.1308289294429414e-14)
+root seconds: 0.019539600000000001
+total seconds: 0.0253063
+
+> .\forest_upper.exe --max-len 10
+standard-generator nodes: 23174
+standard-generator pruned: 8412
+allowed odd-offset closures: 755
+forest-standard representatives (length <= 10): 231
+generation seconds: 0.0026534
+forest-standard representatives by length: 2:1 4:1 6:5 8:31 10:193
+primitive-generator nodes: 13606
+primitive-generator pruned: 5945
+primitive jumps (both signs, length <= 10): 22
+primitive jumps with nonnegative displacement: 13
+primitive generation seconds: 0.0013783
+shift model: primitive forms=22, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 403
+overlap groups: 106
+pairwise-equivalent overlap edges: 932
+prefix-trie nodes: 936
+distinct compressed prefix weights: 49
+overlap-build seconds: 0.0010139
+radius bracket found: F(0.25)=0.086356875046072409 F(0.28999999999999998)=-0.17940827876929755
+rho in [0.262464396812902, 0.262464396812938]
+rho ~= 0.26246439681292
+candidate phi upper <= 3.81004056985623
+last shift rounds used: 20 (last shift delta 4.4408920985006262e-16)
+last cluster iterations: 1 (last cluster delta 3.141931159689193e-14)
+root seconds: 0.035610500000000003
+total seconds: 0.043051499999999999
+
+> .\forest_upper.exe --max-len 12
+standard-generator nodes: 209146
+standard-generator pruned: 75681
+allowed odd-offset closures: 6885
+forest-standard representatives (length <= 12): 1518
+generation seconds: 0.0148405
+forest-standard representatives by length: 2:1 4:1 6:5 8:31 10:193 12:1287
+primitive-generator nodes: 105438
+primitive-generator pruned: 46127
+primitive jumps (both signs, length <= 12): 88
+primitive jumps with nonnegative displacement: 63
+primitive generation seconds: 0.0057488
+shift model: primitive forms=88, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 2696
+overlap groups: 822
+pairwise-equivalent overlap edges: 31282
+prefix-trie nodes: 6124
+distinct compressed prefix weights: 290
+overlap-build seconds: 0.0017824
+radius bracket found: F(0.25)=0.086844053341701019 F(0.28999999999999998)=-0.16815533899631385
+rho in [0.262637116443293, 0.262637116443329]
+rho ~= 0.262637116443311
+candidate phi upper <= 3.80753494990459
+last shift rounds used: 20 (last shift delta 2.7755575615628914e-16)
+last cluster iterations: 1 (last cluster delta 3.1530333899354446e-14)
+root seconds: 0.056226600000000002
+total seconds: 0.081408300000000003
+
+> .\forest_upper.exe --max-len 14
+standard-generator nodes: 1893210
+standard-generator pruned: 684842
+allowed odd-offset closures: 62881
+forest-standard representatives (length <= 14): 10557
+generation seconds: 0.124842
+forest-standard representatives by length: 2:1 4:1 6:5 8:31 10:193 12:1287 14:9039
+primitive-generator nodes: 815742
+primitive-generator pruned: 358087
+primitive jumps (both signs, length <= 14): 352
+primitive jumps with nonnegative displacement: 223
+primitive generation seconds: 0.0451379
+shift model: primitive forms=352, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 18948
+overlap groups: 6708
+pairwise-equivalent overlap edges: 1258116
+prefix-trie nodes: 42338
+distinct compressed prefix weights: 1891
+overlap-build seconds: 0.0030449
+radius bracket found: F(0.25)=0.087141831457317145 F(0.28999999999999998)=-0.15664257223081857
+rho in [0.262762690891432, 0.262762690891468]
+rho ~= 0.26276269089145
+candidate phi upper <= 3.80571532666021
+last shift rounds used: 20 (last shift delta 4.4408920985006262e-16)
+last cluster iterations: 1 (last cluster delta 3.1641356201816961e-14)
+root seconds: 0.092300300000000002
+total seconds: 0.27148319999999998
+
+> .\forest_upper.exe --max-len 16
+standard-generator nodes: 17161136
+standard-generator pruned: 6213377
+allowed odd-offset closures: 574509
+forest-standard representatives (length <= 16): 76288
+generation seconds: 1.18109
+forest-standard representatives by length: 2:1 4:1 6:5 8:31 10:193 12:1287 14:9039 16:65731
+primitive-generator nodes: 6296824
+primitive-generator pruned: 2774489
+primitive jumps (both signs, length <= 16): 1596
+primitive jumps with nonnegative displacement: 1089
+primitive generation seconds: 0.371071
+shift model: primitive forms=1596, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 137993
+overlap groups: 54510
+pairwise-equivalent overlap edges: 57846996
+prefix-trie nodes: 304193
+distinct compressed prefix weights: 12971
+overlap-build seconds: 0.0129358
+radius bracket found: F(0.25)=0.087331387928123491 F(0.28999999999999998)=-0.14437868120406963
+rho in [0.26285768775404, 0.262857687754076]
+rho ~= 0.262857687754058
+candidate phi upper <= 3.80433993977652
+last shift rounds used: 20 (last shift delta 4.4408920985006262e-16)
+last cluster iterations: 1 (last cluster delta 3.1613600626201332e-14)
+root seconds: 0.42624250000000002
+total seconds: 2.0106896999999999
+
+> .\forest_upper.exe --max-len 18
+standard-generator nodes: 155644104
+standard-generator pruned: 56433828
+allowed odd-offset closures: 5247791
+forest-standard representatives (length <= 18): 567205
+generation seconds: 12.0945
+forest-standard representatives by length: 2:1 4:1 6:5 8:31 10:193 12:1287 14:9039 16:65731 18:490917
+primitive-generator nodes: 48490064
+primitive-generator pruned: 21446903
+primitive jumps (both signs, length <= 18): 7630
+primitive jumps with nonnegative displacement: 4962
+primitive generation seconds: 3.12946
+shift model: primitive forms=7630, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 1031848
+overlap groups: 449938
+pairwise-equivalent overlap edges: 2909351648
+prefix-trie nodes: 2250053
+distinct compressed prefix weights: 92590
+overlap-build seconds: 0.117028
+radius bracket found: F(0.25)=0.087455515005730844 F(0.28999999999999998)=-0.13111495654518515
+rho in [0.262931499978004, 0.26293149997804]
+rho ~= 0.262931499978022
+candidate phi upper <= 3.80327195518094
+last shift rounds used: 20 (last shift delta 4.4408920985006262e-16)
+last cluster iterations: 1 (last cluster delta 3.1738500716471663e-14)
+root seconds: 3.5111107000000001
+total seconds: 19.0003928
+
+> .\forest_upper.exe --max-len 20
+standard-generator nodes: 1411775356
+standard-generator pruned: 512730829
+allowed odd-offset closures: 47908327
+forest-standard representatives (length <= 20): 4310632
+generation seconds: 116.325
+forest-standard representatives by length: 2:1 4:1 6:5 8:31 10:193 12:1287 14:9039 16:65731 18:490917 20:3743427
+primitive-generator nodes: 372537396
+primitive-generator pruned: 165373161
+primitive jumps (both signs, length <= 20): 37792
+primitive jumps with nonnegative displacement: 25264
+primitive generation seconds: 26.6202
+shift model: primitive forms=37792, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 7875856
+overlap groups: 3731798
+pairwise-equivalent overlap edges: 156378672122
+prefix-trie nodes: 17023997
+distinct compressed prefix weights: 681414
+overlap-build seconds: 1.15625
+radius bracket found: F(0.25)=0.087538675927209153 F(0.28999999999999998)=-0.11660903344299636
+rho in [0.262990118663438, 0.262990118663474]
+rho ~= 0.262990118663456
+candidate phi upper <= 3.80242423206688
+last shift rounds used: 20 (last shift delta 4.4408920985006262e-16)
+last cluster iterations: 1 (last cluster delta 3.1627478414009147e-14)
+root seconds: 29.430060699999999
+total seconds: 174.73181059999999
+
+> .\forest_upper.exe --max-len 22
+standard-generator nodes: 12803778758
+standard-generator pruned: 4658019808
+allowed odd-offset closures: 437049119
+forest-standard representatives (length <= 22): 33328123
+generation seconds: 1228.57
+forest-standard representatives by length: 2:1 4:1 6:5 8:31 10:193 12:1287 14:9039 16:65731 18:490917 20:3743427 22:29017491
+primitive-generator nodes: 2855798250
+primitive-generator pruned: 1272070935
+primitive jumps (both signs, length <= 22): 194972
+primitive jumps with nonnegative displacement: 127952
+primitive generation seconds: 235.378
+shift model: primitive forms=194972, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 61097431
+overlap groups: 31197154
+pairwise-equivalent overlap edges: 8835343142456
+prefix-trie nodes: 131123260
+distinct compressed prefix weights: 5133522
+overlap-build seconds: 14.0235
+radius bracket found: F(0.25)=0.08759539109554175 F(0.28999999999999998)=-0.1006819111761692
+rho in [0.263037468400617, 0.263037468400653]
+rho ~= 0.263037468400635
+candidate phi upper <= 3.80173975244074
+last shift rounds used: 20 (last shift delta 3.8857805861880479e-16)
+last cluster iterations: 1 (last cluster delta 3.1682989565240405e-14)
+root seconds: 277.32401019999998
+total seconds: 1768.7260948000001
+
+> .\forest_upper.exe --max-len 24
+standard-generator nodes: 116089008744
+standard-generator pruned: 42304010583
+allowed odd-offset closures: 3983878503
+forest-standard representatives (length <= 24): 261280562
+generation seconds: 21935.4
+forest-standard representatives by length: 2:1 4:1 6:5 8:31 10:193 12:1287 14:9039 16:65731 18:490917 20:3743427 22:29017491 24:227952439
+primitive-generator nodes: 21846827406
+primitive-generator pruned: 9762474755
+primitive jumps (both signs, length <= 24): 1028316
+primitive jumps with nonnegative displacement: 682374
+primitive generation seconds: 2020.2
+shift model: primitive forms=1028316, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 480254160
+overlap groups: 262045176
+pairwise-equivalent overlap edges: 518994327568620
+prefix-trie nodes: 1024624318
+distinct compressed prefix weights: 39400581
+overlap-build seconds: 822.516
+radius bracket found: F(0.25)=0.087634635874887221 F(0.28999999999999998)=-0.083229170484076354
+rho in [0.263076248270445, 0.263076248270481]
+rho ~= 0.263076248270463
+candidate phi upper <= 3.80117934087303
+last shift rounds used: 20 (last shift delta 4.9960036108132044e-16)
+last cluster iterations: 1 (last cluster delta 3.1780134079895106e-14)
+root seconds: 17869.218087699999
+total seconds: 43169.289648099999

@@ -1,0 +1,320 @@
+> g++ -O3 -std=c++17 meander_upper.cpp -o meander_upper
+
+> .\meander_upper.exe --max-len 2
+standard-generator nodes: 4
+standard-generator pruned: 0
+standard representatives (length <= 2): 1
+generation seconds: 0.0023057
+standard representatives by length: 2:1
+primitive-generator nodes: 0
+primitive-generator pruned: 0
+primitive jumps (both signs, length <= 2): 0
+primitive jumps with nonnegative displacement: 0
+primitive generation seconds: 0.0006495
+shift model: primitive forms=0, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 1
+overlap groups: 0
+pairwise-equivalent overlap edges: 0
+prefix-trie nodes: 3
+distinct compressed prefix weights: 0
+overlap-build seconds: 0.0008224
+radius bracket found: F(0.25)=0.07216878364870323 F(0.28999999999999998)=-0.056761233456522162
+rho in [0.27205356077091, 0.272053560770946]
+rho ~= 0.272053560770928
+candidate M upper <= 13.511114390918
+last shift rounds used: 20 (last shift delta 0)
+last cluster iterations: 1 (last cluster delta 2.8532731732866523e-14)
+root seconds: 0.0069448000000000001
+total seconds: 0.012597499999999999
+
+> .\meander_upper.exe --max-len 4
+standard-generator nodes: 30
+standard-generator pruned: 14
+standard representatives (length <= 4): 1
+generation seconds: 0.0009936
+standard representatives by length: 2:1
+primitive-generator nodes: 30
+primitive-generator pruned: 13
+primitive jumps (both signs, length <= 4): 2
+primitive jumps with nonnegative displacement: 1
+primitive generation seconds: 0.0008506
+shift model: primitive forms=2, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 1
+overlap groups: 0
+pairwise-equivalent overlap edges: 0
+prefix-trie nodes: 3
+distinct compressed prefix weights: 0
+overlap-build seconds: 0.0008661
+radius bracket found: F(0.25)=0.074490231122847389 F(0.28999999999999998)=-0.047255951541158081
+rho in [0.273679559097618, 0.273679559097654]
+rho ~= 0.273679559097636
+candidate M upper <= 13.3510455303084
+last shift rounds used: 20 (last shift delta 2.55351295663786e-15)
+last cluster iterations: 1 (last cluster delta 3.5582647939236267e-14)
+root seconds: 0.0060029000000000002
+total seconds: 0.0102212
+
+> .\meander_upper.exe --max-len 6
+standard-generator nodes: 228
+standard-generator pruned: 100
+standard representatives (length <= 6): 5
+generation seconds: 0.0018067
+standard representatives by length: 2:1 6:4
+primitive-generator nodes: 228
+primitive-generator pruned: 101
+primitive jumps (both signs, length <= 6): 4
+primitive jumps with nonnegative displacement: 2
+primitive generation seconds: 0.0009268
+shift model: primitive forms=4, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 7
+overlap groups: 2
+pairwise-equivalent overlap edges: 2
+prefix-trie nodes: 21
+distinct compressed prefix weights: 2
+overlap-build seconds: 0.0009443
+radius bracket found: F(0.25)=0.076749230242076485 F(0.28999999999999998)=-0.037174044625765526
+rho in [0.275540618481245, 0.275540618481282]
+rho ~= 0.275540618481264
+candidate M upper <= 13.1713030482988
+last shift rounds used: 20 (last shift delta 1.8429702208777599e-14)
+last cluster iterations: 1 (last cluster delta 3.6901037780978641e-14)
+root seconds: 0.017402500000000001
+total seconds: 0.0227634
+
+> .\meander_upper.exe --max-len 8
+standard-generator nodes: 1756
+standard-generator pruned: 758
+standard representatives (length <= 8): 19
+generation seconds: 0.0015705
+standard representatives by length: 2:1 6:4 8:14
+primitive-generator nodes: 1756
+primitive-generator pruned: 769
+primitive jumps (both signs, length <= 8): 8
+primitive jumps with nonnegative displacement: 6
+primitive generation seconds: 0.0012092
+shift model: primitive forms=8, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 27
+overlap groups: 10
+pairwise-equivalent overlap edges: 26
+prefix-trie nodes: 81
+distinct compressed prefix weights: 10
+overlap-build seconds: 0.0008183
+radius bracket found: F(0.25)=0.07745135091603271 F(0.28999999999999998)=-0.031649809977808863
+rho in [0.27645809831909, 0.276458098319126]
+rho ~= 0.276458098319108
+candidate M upper <= 13.0840250641339
+last shift rounds used: 20 (last shift delta 6.0118576783452227e-14)
+last cluster iterations: 1 (last cluster delta 3.7775338412870951e-14)
+root seconds: 0.0188475
+total seconds: 0.024849599999999999
+
+> .\meander_upper.exe --max-len 10
+standard-generator nodes: 13606
+standard-generator pruned: 5862
+standard representatives (length <= 10): 105
+generation seconds: 0.0019861
+standard representatives by length: 2:1 6:4 8:14 10:86
+primitive-generator nodes: 13606
+primitive-generator pruned: 5945
+primitive jumps (both signs, length <= 10): 22
+primitive jumps with nonnegative displacement: 13
+primitive generation seconds: 0.001611
+shift model: primitive forms=22, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 163
+overlap groups: 80
+pairwise-equivalent overlap edges: 520
+prefix-trie nodes: 463
+distinct compressed prefix weights: 51
+overlap-build seconds: 0.0010244
+radius bracket found: F(0.25)=0.077815497840448514 F(0.28999999999999998)=-0.026836050942794593
+rho in [0.277186692220203, 0.277186692220239]
+rho ~= 0.277186692220221
+candidate M upper <= 13.0153319247146
+last shift rounds used: 20 (last shift delta 1.2773115898312426e-13)
+last cluster iterations: 1 (last cluster delta 3.8344327712991344e-14)
+root seconds: 0.031903800000000003
+total seconds: 0.038859100000000001
+
+> .\meander_upper.exe --max-len 12
+standard-generator nodes: 105438
+standard-generator pruned: 45644
+standard representatives (length <= 12): 571
+generation seconds: 0.0064143
+standard representatives by length: 2:1 6:4 8:14 10:86 12:466
+primitive-generator nodes: 105438
+primitive-generator pruned: 46127
+primitive jumps (both signs, length <= 12): 88
+primitive jumps with nonnegative displacement: 63
+primitive generation seconds: 0.0067798
+shift model: primitive forms=88, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 897
+overlap groups: 546
+pairwise-equivalent overlap edges: 12854
+prefix-trie nodes: 2457
+distinct compressed prefix weights: 263
+overlap-build seconds: 0.0010516
+radius bracket found: F(0.25)=0.077988056721124299 F(0.28999999999999998)=-0.022908469038099344
+rho in [0.27772346531543, 0.277723465315466]
+rho ~= 0.277723465315448
+candidate M upper <= 12.9650694912555
+last shift rounds used: 20 (last shift delta 2.4263924203182796e-13)
+last cluster iterations: 1 (last cluster delta 3.8871683649688293e-14)
+root seconds: 0.056787900000000002
+total seconds: 0.074019600000000005
+
+> .\meander_upper.exe --max-len 14
+standard-generator nodes: 815742
+standard-generator pruned: 355060
+standard representatives (length <= 14): 3379
+generation seconds: 0.0540078
+standard representatives by length: 2:1 6:4 8:14 10:86 12:466 14:2808
+primitive-generator nodes: 815742
+primitive-generator pruned: 358087
+primitive jumps (both signs, length <= 14): 352
+primitive jumps with nonnegative displacement: 223
+primitive generation seconds: 0.047593
+shift model: primitive forms=352, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 5469
+overlap groups: 3858
+pairwise-equivalent overlap edges: 364374
+prefix-trie nodes: 14538
+distinct compressed prefix weights: 1444
+overlap-build seconds: 0.0040899
+radius bracket found: F(0.25)=0.078077802846773237 F(0.28999999999999998)=-0.019527753213539084
+rho in [0.278150693418793, 0.278150693418829]
+rho ~= 0.278150693418811
+candidate M upper <= 12.9252724437665
+last shift rounds used: 20 (last shift delta 3.7253533591297128e-13)
+last cluster iterations: 1 (last cluster delta 3.9301895071730542e-14)
+root seconds: 0.068987499999999993
+total seconds: 0.17909430000000001
+
+> .\meander_upper.exe --max-len 16
+standard-generator nodes: 6296824
+standard-generator pruned: 2755576
+standard representatives (length <= 16): 20509
+generation seconds: 0.357148
+standard representatives by length: 2:1 6:4 8:14 10:86 12:466 14:2808 16:17130
+primitive-generator nodes: 6296824
+primitive-generator pruned: 2774489
+primitive jumps (both signs, length <= 16): 1596
+primitive jumps with nonnegative displacement: 1089
+primitive generation seconds: 0.394376
+shift model: primitive forms=1596, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 33571
+overlap groups: 27096
+pairwise-equivalent overlap edges: 11922642
+prefix-trie nodes: 87349
+distinct compressed prefix weights: 8355
+overlap-build seconds: 0.006135
+rho in [0.278499533599097, 0.278499533599133]
+rho ~= 0.278499533599115
+candidate M upper <= 12.892913103817
+last shift rounds used: 20 (last shift delta 5.23359e-13)
+last cluster iterations: 1 (last cluster delta 3.9635e-14)
+root seconds: 0.20254
+total seconds: 0.971185
+
+> .\meander_upper.exe --max-len 18
+standard-generator nodes: 48490064
+standard-generator pruned: 21326664
+standard representatives (length <= 18): 127869
+generation seconds: 3.0019
+standard representatives by length: 2:1 6:4 8:14 10:86 12:466 14:2808 16:17130 18:107360
+primitive-generator nodes: 48490064
+primitive-generator pruned: 21446903
+primitive jumps (both signs, length <= 18): 7630
+primitive jumps with nonnegative displacement: 4962
+primitive generation seconds: 3.28169
+shift model: primitive forms=7630, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 211779
+overlap groups: 191436
+pairwise-equivalent overlap edges: 420242282
+prefix-trie nodes: 542185
+distinct compressed prefix weights: 49949
+overlap-build seconds: 0.0376294
+rho in [0.278792055384656, 0.278792055384693]
+rho ~= 0.278792055384674
+candidate M upper <= 12.8658715917401
+last shift rounds used: 20 (last shift delta 6.8795e-13)
+last cluster iterations: 1 (last cluster delta 3.98154e-14)
+root seconds: 0.987019
+total seconds: 7.34336
+
+> .\meander_upper.exe --max-len 20
+standard-generator nodes: 372537396
+standard-generator pruned: 164598776
+standard representatives (length <= 20): 812177
+generation seconds: 24.8338
+standard representatives by length: 2:1 6:4 8:14 10:86 12:466 14:2808 16:17130 18:107360 20:684308
+primitive-generator nodes: 372537396
+primitive-generator pruned: 165373161
+primitive jumps (both signs, length <= 20): 37792
+primitive jumps with nonnegative displacement: 25264
+primitive generation seconds: 27.6313
+shift model: primitive forms=37792, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 1355237
+overlap groups: 1354992
+pairwise-equivalent overlap edges: 15810623024
+prefix-trie nodes: 3425319
+distinct compressed prefix weights: 307488
+overlap-build seconds: 0.309213
+rho in [0.279042156757278, 0.279042156757314]
+rho ~= 0.279042156757296
+candidate M upper <= 12.8428189450607
+last shift rounds used: 20 (last shift delta 8.66751e-13)
+last cluster iterations: 1 (last cluster delta 3.99819e-14)
+root seconds: 7.56781
+total seconds: 60.5479
+
+> .\meander_upper.exe --max-len 22
+standard-generator nodes: 2855798250
+standard-generator pruned: 1267033648
+standard representatives (length <= 22): 5232259
+generation seconds: 228.531
+standard representatives by length: 2:1 6:4 8:14 10:86 12:466 14:2808 16:17130 18:107360 20:684308 22:4420082
+primitive-generator nodes: 2855798250
+primitive-generator pruned: 1272070935
+primitive jumps (both signs, length <= 22): 194972
+primitive jumps with nonnegative displacement: 127952
+primitive generation seconds: 245.152
+shift model: primitive forms=194972, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 8784963
+overlap groups: 9610174
+pairwise-equivalent overlap edges: 620924788082
+prefix-trie nodes: 21984149
+distinct compressed prefix weights: 1931025
+overlap-build seconds: 2.89629
+rho in [0.279259310813941, 0.279259310813977]
+rho ~= 0.279259310813959
+candidate M upper <= 12.8228533732631
+last shift rounds used: 20 (last shift delta 1.0581e-12)
+last cluster iterations: 1 (last cluster delta 4.01484e-14)
+root seconds: 52.2849
+total seconds: 530.416
+
+> .\meander_upper.exe --max-len 24
+standard-generator nodes: 21846827406
+standard-generator pruned: 9729398550
+standard representatives (length <= 24): 34104521
+generation seconds: 1861.79
+standard representatives by length: 2:1 6:4 8:14 10:86 12:466 14:2808 16:17130 18:107360 20:684308 22:4420082 24:28872262
+primitive-generator nodes: 21846827406
+primitive-generator pruned: 9762474755
+primitive jumps (both signs, length <= 24): 1028316
+primitive jumps with nonnegative displacement: 682374
+primitive generation seconds: 1835.66
+shift model: primitive forms=1028316, max top-level jumps=50, substitution rounds=20
+D-ended prefix trie nodes: 57532633
+overlap groups: 68282730
+pairwise-equivalent overlap edges: 25254018254868
+prefix-trie nodes: 142804377
+distinct compressed prefix weights: 12330785
+overlap-build seconds: 21.2449
+rho in [0.279450303906224, 0.279450303906234]
+rho ~= 0.279450303906229
+candidate M upper <= 12.8053315494498
+last shift rounds used: 20 (last shift delta 1.23912e-12)
+last cluster iterations: 1 (last cluster delta 1.11439e-14)
+root seconds: 391.118
+total seconds: 4119.84
